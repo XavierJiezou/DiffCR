@@ -97,9 +97,9 @@ You can download pretrained models here:
 
 ### Quantitative Results
 
-- Abalation Study
+- Ablation Study
 
-![abalation](image/README/abalation.png)
+![ablation](image/README/abalation.png)
 
 - Main Results
 
