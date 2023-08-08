@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<style type="text/css">
+  .layered-paper-big {
+    /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+    box-shadow:
+      0px 0px 1px 1px rgba(0, 0, 0, 0.35),
+      /* The top layer shadow */
+      5px 5px 0 0px #fff,
+      /* The second layer */
+      5px 5px 1px 1px rgba(0, 0, 0, 0.35),
+      /* The second layer shadow */
+      10px 10px 0 0px #fff,
+      /* The third layer */
+      10px 10px 1px 1px rgba(0, 0, 0, 0.35);
+    /* The third layer shadow */
+    margin-left: 10px;
+    margin-right: 45px;
+  }
+
+  hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  }
+</style>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+    content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
+  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DiffCR</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">DiffCR: A Fast Conditional Diffusion Framework for Cloud Removal
+              from Optical Satellite Images</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://github.com/XavierJiezou" target="_blank">Xuechao Zou</a><sup>1,*</sup>,</span>
+              <span class="author-block">
+                <a href="https://cslikai.cn/" target="_blank">Kai Li</a><sup>2,*</sup>,</span>
+              <span class="author-block">
+                <a href="https://www.cs.tsinghua.edu.cn/info/1116/5088.htm" target="_blank">Junliang
+                  Xing</a><sup>2</sup>,</span>
+              <br>
+              <span class="author-block">
+                <a href="https://jiangchulang.blog.csdn.net/" target="_blank">Yu Zhang</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="https://cs.qhu.edu.cn/jxgz/jxysz/szgk/50127.htm" target="_blank">Shiying
+                  Wang</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="https://teacher.bupt.edu.cn/jinlei1/zh_CN/index/260463/list/" target="_blank">Lei
+                  Jin</a><sup>3</sup>,</span>
+              <span class="author-block">
+                <a href="https://www.cs.tsinghua.edu.cn/info/1117/3542.htm" target="_blank">Pin Tao</a><sup>1,2,†</sup>
+              </span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>Qinghai University, <sup>2</sup>Tsinghua University,
+                <br><sup>3</sup>Beijing University of Posts and Telecommunications
+                <!-- <br>ECAI 2023 -->
+              </span>
+              <!--<span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>-->
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- Arxiv PDF link -->
+                <!-- <span class="link-block">
+                  <a href="https://arxiv.org/pdf/2303.16565.pdf" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span> -->
+
+                <!-- Github link -->
+                <span class="link-block">
+                  <a href="https://github.com/XavierJiezou/DiffCR" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <!-- <span class="link-block">
+                  <a href="https://arxiv.org/abs/2303.16565" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Teaser video-->
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column">
+          <div class="content">
+            <img src="image/README/diffcr.png" alt="method" />
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- <section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered"> -->
+
+  <!-- Visual Effects. -->
+  <!-- <div class="column">
+        <div class="content">
+          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
+            <source src="static/videos/1_compress.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+      </div> -->
+  <!--/ Visual Effects. -->
+
+  <!-- Matting. -->
+  <!-- <div class="column">
+        <div class="content">
+           <video id="matting-video" autoplay controls muted loop playsinline height="100%">
+             <source src="static/videos/2_compress.mp4"
+                     type="video/mp4">
+           </video>
+         </div>
+       </div>
+      </div>
+    </div> -->
+  <!--/ Matting. -->
+  <!-- <h2 class="subtitle has-text-centered">
+        <span class="dnerf">ACR</span> is the first one-stage arbitrary hand reconstruction method using only a monocular RGB image as input.
+    </h2>
+  </div> -->
+  <!-- </section> -->
+  <!-- End teaser video -->
+
+  <!-- Paper abstract -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Optical satellite images are a critical data source; however, cloud cover often compromises their quality,
+              hindering image applications and analysis. Consequently, effectively removing clouds from optical
+              satellite images has emerged as a prominent research direction. While recent advancements in cloud removal
+              primarily rely on generative adversarial networks, which may yield suboptimal image quality, diffusion
+              models have demonstrated remarkable success in diverse image-generation tasks, showcasing their potential
+              in addressing this challenge. This paper presents a novel framework called DiffCR, which leverages
+              conditional guided diffusion with deep convolutional networks for high-performance cloud removal for
+              optical satellite imagery. Specifically, we introduce a decoupled encoder for conditional image feature
+              extraction, providing a robust color representation to ensure the close similarity of appearance
+              information between the conditional input and the synthesized output. Moreover, we propose a novel and
+              efficient time and condition fusion block within the cloud removal model to accurately simulate the
+              correspondence between the appearance in the conditional image and the target image at a low computational
+              cost. Extensive experimental evaluations on two commonly used benchmark datasets demonstrate that DiffCR
+              consistently achieves state-of-the-art performance on all metrics, with parameter and computational
+              complexities amounting to only 5.1% and 5.4%, respectively, of those previous best methods. Our source
+              code and pre-trained models are available at <a
+                href="https://github.com/XavierJiezou/DiffCR">https://github.com/XavierJiezou/DiffCR</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End paper abstract -->
+
+
+  <!-- Method -->
+  <!-- <section class="section" id="method">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Method Overview</h2>
+          <div class="content has-text-justified">
+            <center>
+              <table align=center width=850px>
+                <tr>
+                  <td width=850px>
+                    <center>
+                      <img class="round" style="width:850px" src="image/README/pmaa.png" />
+                    </center>
+                  </td>
+                </tr>
+              </table>
+              <table align=center width=850px>
+                <tr>
+                  <td>
+                    Overview of our proposed high-performance cloud removal autoencoder. In the encoder, we downsample
+                    the input image $N$ times. Then, the multi-scale features are fused by averaging pooling and
+                    summation operations. A simplified transformer layer processes the fused features to obtain global
+                    attention, which is used to modulate the multi-scale features. In the reconstruction process
+                    (decoder), we use the local interaction module to recover more details.
+                  </td>
+                </tr>
+              </table>
+            </center>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- End Method -->
+
+  <section class="hero is-light is-small">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Results</h2>
+            <h3 class="title is-4">Visualization on the Sen2_MTC_Old dataset</h3>
+            <div id="results-carousel" class="carousel results-carousel">
+              <div class="item ">
+                <img src="image/README/old/11WNR_50003000.png" alt="MY ALT TEXT" />
+              </div>
+              <div class="item">
+                <img src="image/README/old/14RPS_20001000.png" alt="MY ALT TEXT" />
+              </div>
+              <div class="item">
+                <img src="image/README/old/14SQB_20006000.png" alt="MY ALT TEXT" />
+              </div>
+              <div class="item">
+                <img src="image/README/old/15RTN_70002000.png" alt="MY ALT TEXT" />
+              </div>
+              <div class="item">
+                <img src="image/README/old/31TEM_30009000.png" alt="MY ALT TEXT" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="hero is-light is-small">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h3 class="title is-4">Visualization on the Sen2_MTC_New dataset</h3>
+            <div id="results-carousel" class="carousel results-carousel">
+              <div class="item ">
+                <img src="image/README/new/T12TUR_R027_55.png" alt="MY ALT TEXT" />
+              </div>
+              <div class="item">
+                <img src="image/README/new/T15UVU_R012_12.png" alt="MY ALT TEXT" />
+              </div>
+              <div class="item">
+                <img src="image/README/new/T15UVU_R012_13.png" alt="MY ALT TEXT" />
+              </div>
+              <div class="item">
+                <img src="image/README/new/T15UVU_R012_17.png" alt="MY ALT TEXT" />
+              </div>
+              <div class="item">
+                <img src="image/README/new/T41VMJ_R006_64.png" alt="MY ALT TEXT" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- End Results -->
+
+
+  <!-- Application -->
+  <!-- <section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+	      <h2 class="title is-3">Applications</h2>
+	      <div id="results-carousel" class="carousel results-carousel">
+		<div class="item item-video1">
+		  <video poster="" id="video1" autoplay controls muted loop height="100%"> -->
+  <!-- Your video file here -->
+  <!-- <source src="static/videos/intro_noshadow.mp4"
+		    type="video/mp4">
+		  </video>
+		</div>
+		<div class="item item-video2">
+		  <video poster="" id="video2" autoplay controls muted loop height="100%"> -->
+  <!-- Your video file here -->
+  <!-- <source src="static/videos/v3_body.mp4"
+		    type="video/mp4">
+		  </video>
+		</div>
+		<div class="item item-video2">
+		  <video poster="" id="video2" autoplay controls muted loop height="100%"> -->
+  <!-- Your video file here -->
+  <!-- <source src="static/videos/single-cropped.mp4"
+		    type="video/mp4">
+		  </video>
+		</div>
+		<div class="item item-video3">
+		  <video poster="" id="video3" autoplay controls muted loop height="100%">\ -->
+  <!-- Your video file here -->
+  <!-- <source src="static/videos/qin.mp4"
+		    type="video/mp4">
+		  </video>
+	</div>
+      </div>
+    </div>
+  </div>
+</section> -->
+  <!-- End Application -->
+
+  <!-- Demo video-->
+  <!-- <section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+	  <h2 class="title is-3">Videos</h2>
+	
+           <div class="column">
+             <div class="content">
+               <div class="publication-video"> -->
+  <!-- Youtube embed code here -->
+  <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/WKRkm3Tfn3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+             </div>
+            </div>
+	
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+  <!-- End Demo video -->
+
+
+  <!--BibTex citation -->
+  <!-- <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@inproceedings{zou2023pmaa,
+  title={PMAA: A Progressive Multi-scale Attention Autoencoder Model for High-Performance Cloud Removal from Multi-temporal Satellite Imagery},
+  author={Zou, Xuechao and Li, Kai and Xing, Junliang and Tao, Pin and Cui, Yachao},
+  journal={European Conference on Artificial Intelligence (ECAI)},
+  year={2023}
+  }</code></pre>
+    </div>
+  </section> -->
+  <!--End BibTex citation -->
+
+  <!--Acknowledgements-->
+  <section class="section" id="Acknowledgements">
+    <div class="container is-max-desktop content">
+      <h2 class="title">Acknowledgements</h2>
+      <p>
+        This work was supported in part by the National Natural Science Foundation of China under Grant No. 62222606 and
+        62076238.
+      </p>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+
+            <p>
+              This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"
+                target="_blank">Creative
+                Commons Attribution-ShareAlike 4.0 International License</a>.
+
+              This page was built using the <a href="https://nerfies.github.io/" target="_blank">Nerfies website</a>.
+              You are free to borrow the of this website, we just ask that you link back to this page in the footer.
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Statcounter tracking code -->
+
+  <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+  <!-- End of Statcounter Code -->
+
+</body>
+
+</html>
