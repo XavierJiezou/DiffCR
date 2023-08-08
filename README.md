@@ -29,9 +29,9 @@
 <p align="center">
 <!-- Optional: include a graphic explaining your approach/main result, bibtex entry, link to demos, blog posts and tutorials -->
 
-![DiffCR](image/README/diffcr.png)
+![DiffCR](image/README/diffcr.jpg)
 
-<!-- ![transformer+lim](image/README/transformer+lim.png) -->
+<!-- ![transformer+lim](image/README/transformer+lim.jpg) -->
 </p>
 
 <!-- ## News
@@ -84,12 +84,12 @@ python evaluation/eval.py -s [ground-truth image path] -d [predicted-sample imag
 
 <!-- >📋  Describe how to evaluate the trained models on benchmarks reported in the paper, give commands that produce the results (section below). -->
 
-## Pre-trained Models
+<!-- ## Pre-trained Models
 
 You can download pretrained models here:
 
 - Our awesome model trained on Sen2_MTC_Old: [diffcr_old.pth](/pretrained/diffcr_old.pth)
-- Our awesome model trained on Sen2_MTC_New: [diffcr_new.pth](/pretrained/diffcr_new.pth)
+- Our awesome model trained on Sen2_MTC_New: [diffcr_new.pth](/pretrained/diffcr_new.pth) -->
 
 <!-- >📋  Give a link to where/how the pretrained models can be downloaded and how they were trained (if applicable).  Alternatively you can have an additional column in your results table with a link to the models. -->
 
@@ -99,51 +99,51 @@ You can download pretrained models here:
 
 - Ablation Study
 
-![ablation](image/README/abalation.png)
+![ablation](image/README/abalation.jpg)
 
 - Main Results
 
-![exp](image/README/exp.png)
+![exp](image/README/exp.jpg)
 
 ### Qualitative Results
 
 - Visualization results on the Sen2_MTC_Old dataset.
 
-![old_1](image/README/old/11WNR_50003000.png)
+![old_1](image/README/old/11WNR_50003000.jpg)
 
 ---
 
-![old_2](image/README/old/14RPS_20001000.png)
+![old_2](image/README/old/14RPS_20001000.jpg)
 
 ---
 
-![old_3](image/README/old/14SQB_20006000.png)
+![old_3](image/README/old/14SQB_20006000.jpg)
 
 ---
 
-![old_4](image/README/old/15RTN_70002000.png)
+![old_4](image/README/old/15RTN_70002000.jpg)
 
 ---
 
-![old_5](image/README/old/31TEM_30009000.png)
+![old_5](image/README/old/31TEM_30009000.jpg)
 
 - Visualization results on the Sen2_MTC_New dataset.
 
-![new_1](image/README/new/T12TUR_R027_55.png)
+![new_1](image/README/new/T12TUR_R027_55.jpg)
 
 ---
 
-![new_2](image/README/new/T15UVU_R012_12.png)
+![new_2](image/README/new/T15UVU_R012_12.jpg)
 
 ---
 
-![new_3](image/README/new/T15UVU_R012_13.png)
+![new_3](image/README/new/T15UVU_R012_13.jpg)
 
 ---
 
-![new_4](image/README/new/T15UVU_R012_17.png)
+![new_4](image/README/new/T15UVU_R012_17.jpg)
 
 ---
 
-![new_5](image/README/new/T41VMJ_R006_64.png)
+![new_5](image/README/new/T41VMJ_R006_64.jpg)
 
