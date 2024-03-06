@@ -4,7 +4,7 @@
 </p>
 </p>
 <p align="center">
-    <a href="https://blog.csdn.net/qq_42951560">Xuechao Zou<sup>1*</sup></a>, Graduate Student Member,
+    <a href="https://scholar.google.com/citations?user=po1KXtwAAAAJ&hl=en">Xuechao Zou<sup>1*</sup></a>, Graduate Student Member,
     <a href="https://cslikai.cn/">Kai Li<sup>2*</sup></a>, Student Member, IEEE,
     <a href="https://www.cs.tsinghua.edu.cn/info/1116/5088.htm">Junliang Xing<sup>2</sup></a>, Senior Member, IEEE,
     <br>
