@@ -93,6 +93,21 @@ You can download pretrained models here:
 
 <!-- >📋  Give a link to where/how the pretrained models can be downloaded and how they were trained (if applicable).  Alternatively you can have an additional column in your results table with a link to the models. -->
 
+## Citation 
+
+```
+@ARTICLE{10436560,
+  author={Zou, Xuechao and Li, Kai and Xing, Junliang and Zhang, Yu and Wang, Shiying and Jin, Lei and Tao, Pin},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={DiffCR: A Fast Conditional Diffusion Framework for Cloud Removal From Optical Satellite Images}, 
+  year={2024},
+  volume={62},
+  number={},
+  pages={1-14},
+  keywords={Clouds;Satellite images;Optical sensors;Optical imaging;Task analysis;Noise reduction;Computational modeling;Autoencoder;cloud removal;deep learning;diffusion models;optical satellite images},
+  doi={10.1109/TGRS.2024.3365806}}
+```
+
 ## Results
 
 ### Quantitative Results
