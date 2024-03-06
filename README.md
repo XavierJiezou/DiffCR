@@ -1,5 +1,5 @@
 <p align="center">
-<h1 align="center">DiffCR: A Fast Conditional Diffusion Framework for Cloud Removal from Optical Satellite Images</h1>
+<h1 align="center"><a href="https://ieeexplore.ieee.org/document/10436560">DiffCR: A Fast Conditional Diffusion Framework for Cloud Removal from Optical Satellite Images</a></h1>
 <p align="center">This repository is the official PyTorch implementation of the TGRS 2024 paper DiffCR.
 </p>
 </p>
@@ -96,7 +96,7 @@ You can download pretrained models here:
 ## Citation 
 
 ```
-@ARTICLE{10436560,
+@ARTICLE{diffcr,
   author={Zou, Xuechao and Li, Kai and Xing, Junliang and Zhang, Yu and Wang, Shiying and Jin, Lei and Tao, Pin},
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
   title={DiffCR: A Fast Conditional Diffusion Framework for Cloud Removal From Optical Satellite Images}, 
@@ -104,8 +104,7 @@ You can download pretrained models here:
   volume={62},
   number={},
   pages={1-14},
-  keywords={Clouds;Satellite images;Optical sensors;Optical imaging;Task analysis;Noise reduction;Computational modeling;Autoencoder;cloud removal;deep learning;diffusion models;optical satellite images},
-  doi={10.1109/TGRS.2024.3365806}}
+}
 ```
 
 ## Results
