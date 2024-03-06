@@ -1,6 +1,6 @@
 <p align="center">
 <h1 align="center">DiffCR: A Fast Conditional Diffusion Framework for Cloud Removal from Optical Satellite Images</h1>
-<p align="center">This repository is the official PyTorch implementation of the paper DiffCR.
+<p align="center">This repository is the official PyTorch implementation of the TGRS 2024 paper DiffCR.
 </p>
 </p>
 <p align="center">
