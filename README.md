@@ -4,14 +4,14 @@
 </p>
 </p>
 <p align="center">
-    <a href="https://scholar.google.com/citations?user=po1KXtwAAAAJ&hl=en">Xuechao Zou<sup>1*</sup></a>, Graduate Student Member,
-    <a href="https://cslikai.cn/">Kai Li<sup>2*</sup></a>, Student Member, IEEE,
-    <a href="https://www.cs.tsinghua.edu.cn/info/1116/5088.htm">Junliang Xing<sup>2</sup></a>, Senior Member, IEEE,
+    <a href="https://scholar.google.com/citations?user=po1KXtwAAAAJ&hl=en">Xuechao Zou<sup>1*</sup></a>,
+    <a href="https://cslikai.cn/">Kai Li<sup>2*</sup></a>, 
+    <a href="https://www.cs.tsinghua.edu.cn/info/1116/5088.htm">Junliang Xing<sup>2</sup></a>,
     <br>
     <a href="https://jiangchulang.blog.csdn.net/">Yu Zhang<sup>1</sup></a>,
     <a href="https://cs.qhu.edu.cn/jxgz/jxysz/szgk/50127.htm">Shiying Wang<sup>1</sup></a>,
     <a href="https://teacher.bupt.edu.cn/jinlei1/zh_CN/index/260463/list/">Lei Jin<sup>3</sup></a>,
-    <a href="https://www.cs.tsinghua.edu.cn/info/1117/3542.htm">Pin Tao<sup>1,2,†</sup></a>, Member, IEEE
+    <a href="https://www.cs.tsinghua.edu.cn/info/1117/3542.htm">Pin Tao<sup>1,2,†</sup></a>,
 </p>
 
 <p align="center">
