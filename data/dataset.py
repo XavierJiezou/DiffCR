@@ -132,11 +132,7 @@ class Sen2_MTC_New_Multi(data.Dataset):
         return image
 
 
-<<<<<<< HEAD
 class Sen2_MTC_New1(data.Dataset):
-=======
-class Sen2_MTC_New(data.Dataset):
->>>>>>> a13ebef0541ec6fe26f52d5598a109d848a51b9c
     def __init__(self, data_root, mode='train'):
         self.data_root = data_root
         self.mode = mode
@@ -231,7 +227,6 @@ class Sen2_MTC_New(data.Dataset):
 
         return image
 
-<<<<<<< HEAD
 class Sen2_MTC_New2(data.Dataset):
     def __init__(self, data_root, mode='train'):
         self.data_root = data_root
@@ -291,7 +286,7 @@ class Sen2_MTC_New2(data.Dataset):
         if self.mode=="train":
             ret['cond_image'] = torch.cat(random.sample((image_cloud0[:3, :, :], image_cloud1[:3, :, :], image_cloud2[:3, :, :]), 2))
         else:
-            ret['cond_image'] = torch.cat(image_cloud0[:3, :, :], image_cloud1[:3, :, :])
+            ret['cond_image'] = torch.cat([image_cloud0[:3, :, :], image_cloud1[:3, :, :]])
         ret['path'] = self.image_name[index]+".png"
         return ret
 
@@ -326,8 +321,6 @@ class Sen2_MTC_New2(data.Dataset):
         image.sub_(mean).div_(std)
 
         return image
-=======
->>>>>>> a13ebef0541ec6fe26f52d5598a109d848a51b9c
 
 class InpaintDataset(data.Dataset):
     def __init__(self, data_root, mask_config={}, data_len=-1, image_size=[256, 256], loader=pil_loader):
