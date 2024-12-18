@@ -106,57 +106,8 @@ You can download pretrained models here:
 }
 ```
 
-## Results
+## Acknowledgments
 
-### Quantitative Results
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Janspiry&repo=Palette-Image-to-Image-Diffusion-Models)](https://github.com/Janspiry/Palette-Image-to-Image-Diffusion-Models)
 
-- Ablation Study
-
-![ablation](image/README/abalation.jpg)
-
-- Main Results
-
-![exp](image/README/exp.jpg)
-
-### Qualitative Results
-
-- Visualization results on the Sen2_MTC_Old dataset.
-
-![old_1](image/README/old/11WNR_50003000.jpg)
-
----
-
-![old_2](image/README/old/14RPS_20001000.jpg)
-
----
-
-![old_3](image/README/old/14SQB_20006000.jpg)
-
----
-
-![old_4](image/README/old/15RTN_70002000.jpg)
-
----
-
-![old_5](image/README/old/31TEM_30009000.jpg)
-
-- Visualization results on the Sen2_MTC_New dataset.
-
-![new_1](image/README/new/T12TUR_R027_55.jpg)
-
----
-
-![new_2](image/README/new/T15UVU_R012_12.jpg)
-
----
-
-![new_3](image/README/new/T15UVU_R012_13.jpg)
-
----
-
-![new_4](image/README/new/T15UVU_R012_17.jpg)
-
----
-
-![new_5](image/README/new/T41VMJ_R006_64.jpg)
-
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=openai&repo=guided-diffusion)](https://github.com/openai/guided-diffusion)
