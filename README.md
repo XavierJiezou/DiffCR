@@ -43,7 +43,7 @@
 
 To install dependencies:
 
-```setup
+```bash
 pip install -r requirements.txt
 ```
 
@@ -65,11 +65,11 @@ python run.py -p train -c config/ours_sigmoid.json
 
 <!-- >📋  Describe how to train the models, with example commands on how to train the models in your paper, including the full training procedure and appropriate hyperparameters. -->
 
-## Test
+## Testing
 
 To test the pre-trained models in the paper, run these commands:
 
-```test
+```bash
 python run.py -p test -c config/ours_sigmoid.json
 ```
 
@@ -77,7 +77,7 @@ python run.py -p test -c config/ours_sigmoid.json
 
 To evaluate my models on two datasets, run:
 
-```eval
+```bash
 python evaluation/eval.py -s [ground-truth image path] -d [predicted-sample image path]
 ```
 
