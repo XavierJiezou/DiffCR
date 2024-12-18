@@ -1,27 +1,21 @@
 <p align="center">
 <h1 align="center">DiffCR: A Fast Conditional Diffusion Framework for Cloud Removal from Optical Satellite Images</h1>
-<p align="center">This repository is the official PyTorch implementation of the TGRS 2024 paper DiffCR.
-</p>
-</p>
+<p align="center">This repository is the official PyTorch implementation of the TGRS 2024 paper DiffCR.</p>
 
 [![arXiv Paper](https://img.shields.io/badge/arXiv-2308.04417-B31B1B)](https://arxiv.org/abs/2308.04417)
 [![Project Page](https://img.shields.io/badge/Project%20Page-DiffCR-blue)](https://xavierjiezou.github.io/DiffCR/)
 [![HugginngFace Models](https://img.shields.io/badge/🤗HugginngFace-Models-orange)](https://huggingface.co/XavierJiezou/diffcr-models)
 [![HugginngFace Datasets](https://img.shields.io/badge/🤗HugginngFace-Datasets-orange)](https://huggingface.co/datasets/XavierJiezou/diffcr-datasets)
 
-<p align="center">
-<!-- Optional: include a graphic explaining your approach/main result, bibtex entry, link to demos, blog posts and tutorials -->
-
 ![DiffCR](image/README/diffcr.jpg)
 
-<!-- ![transformer+lim](image/README/transformer+lim.jpg) -->
 </p>
 
-<!-- ## News
+## News
 
 - [2023/07/30] Code release.
 - [2023/07/16] PMAA got accepted by ECAI 2023.
-- [2023/03/29] PMAA is on arXiv now. -->
+- [2023/03/29] PMAA is on arXiv now.
 
 ## Requirements
 
