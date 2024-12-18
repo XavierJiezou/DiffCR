@@ -3,27 +3,11 @@
 <p align="center">This repository is the official PyTorch implementation of the TGRS 2024 paper DiffCR.
 </p>
 </p>
-<p align="center">
-    <a href="https://scholar.google.com/citations?user=po1KXtwAAAAJ&hl=en">Xuechao Zou<sup>1*</sup></a>,
-    <a href="https://cslikai.cn/">Kai Li<sup>2*</sup></a>, 
-    <a href="https://www.cs.tsinghua.edu.cn/info/1116/5088.htm">Junliang Xing<sup>2</sup></a>,
-    <a href="https://jiangchulang.blog.csdn.net/">Yu Zhang<sup>1</sup></a>,
-    <a href="https://cs.qhu.edu.cn/jxgz/jxysz/szgk/50127.htm">Shiying Wang<sup>1</sup></a>,
-    <a href="https://teacher.bupt.edu.cn/jinlei1/zh_CN/index/260463/list/">Lei Jin<sup>3</sup></a>,
-    <a href="https://www.cs.tsinghua.edu.cn/info/1117/3542.htm">Pin Tao<sup>1,2,†</sup></a>
-</p>
 
-<p align="center">
-    <a href="https://www.qhu.edu.cn/">Qinghai University</a><sup>1</sup>
-    ,
-    <a href="https://www.tsinghua.edu.cn/">Tsinghua University</a><sup>2</sup>,
-    <br><a href="http://www.bupt.edu.cn/">Beijing University of Posts and Telecommunications</a><sup>3</sup>
-</p>
-<!-- <p align="center">
-    <a href="https://arxiv.org/abs/2303.16565">Paper Preprint </a>
-    |
-    <a href="https://xavierjiezou.github.io/PMAA">Project Page</a>
-</p> -->
+[![arXiv Paper](https://img.shields.io/badge/arXiv-2308.04417-B31B1B)](https://arxiv.org/abs/2308.04417)
+[![Project Page](https://img.shields.io/badge/Project%20Page-DiffCR-blue)](https://xavierjiezou.github.io/DiffCR/)
+[![HugginngFace Models](https://img.shields.io/badge/🤗HugginngFace-Models-orange)](https://huggingface.co/XavierJiezou/diffcr-models)
+[![HugginngFace Datasets](https://img.shields.io/badge/🤗HugginngFace-Datasets-orange)](https://huggingface.co/datasets/XavierJiezou/diffcr-datasets)
 
 <p align="center">
 <!-- Optional: include a graphic explaining your approach/main result, bibtex entry, link to demos, blog posts and tutorials -->
