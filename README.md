@@ -1,5 +1,5 @@
 <p align="center">
-<h1 align="center"><a href="https://ieeexplore.ieee.org/document/10436560">DiffCR: A Fast Conditional Diffusion Framework for Cloud Removal from Optical Satellite Images</a></h1>
+<h1 align="center">DiffCR: A Fast Conditional Diffusion Framework for Cloud Removal from Optical Satellite Images</h1>
 <p align="center">This repository is the official PyTorch implementation of the TGRS 2024 paper DiffCR.
 </p>
 </p>
@@ -93,6 +93,8 @@ You can download pretrained models here:
 <!-- >📋  Give a link to where/how the pretrained models can be downloaded and how they were trained (if applicable).  Alternatively you can have an additional column in your results table with a link to the models. -->
 
 ## Citation 
+
+If you use our code or models in your research, please cite with:
 
 ```
 @ARTICLE{diffcr,
