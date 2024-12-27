@@ -11,6 +11,8 @@
 
 </div>
 
+Thank you all for your attention to our work. I'm sorry for not responding quickly. Shortly, possibly within a month, we will specifically allocate time to organize all files related to the paper and open-source everything that can be open-sourced, including code, datasets, pre-trained models, and even visualization results, etc. Thank you again for your attention.
+
 ## News
 
 - [2023/07/30] Code release.
