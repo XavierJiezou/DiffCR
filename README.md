@@ -90,8 +90,4 @@ If you use our code or models in your research, please cite with:
 
 ## Visit Count
 
-<div align="center">
-
-  ![counter](https://counter.seku.su/cmoe?name=diffcr&theme=moebooru)
-
-</div>
+![XavierJiezou@DiffCR](https://count.getloli.com/@XavierJiezou@DiffCR?theme=moebooru)
