@@ -92,6 +92,6 @@ If you use our code or models in your research, please cite with:
 
 <div align="center">
 
-  ![counter](https://counter.seku.su/cmoe?name=anitalker&theme=moebooru)
+  ![counter](https://counter.seku.su/cmoe?name=diffcr&theme=moebooru)
 
 </div>
