@@ -5,7 +5,7 @@
 [![arXiv Paper](https://img.shields.io/badge/arXiv-2308.04417-B31B1B)](https://arxiv.org/abs/2308.04417)
 [![Project Page](https://img.shields.io/badge/Project%20Page-DiffCR-blue)](https://xavierjiezou.github.io/DiffCR/)
 [![HugginngFace Models](https://img.shields.io/badge/🤗HugginngFace-Models-orange)](https://huggingface.co/XavierJiezou/diffcr-models)
-[![HugginngFace Datasets](https://img.shields.io/badge/🤗HugginngFace-Datasets-orange)](https://huggingface.co/datasets/XavierJiezou/diffcr-datasets)
+[![HugginngFace Visualization](https://img.shields.io/badge/🤗HugginngFace-Datasets-orange)](https://huggingface.co/datasets/XavierJiezou/diffcr-datasets)
 
 ![DiffCR](image/README/diffcr.jpg)
 
