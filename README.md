@@ -57,14 +57,17 @@ python evaluation/eval.py -s [ground-truth image path] -d [predicted-sample imag
 
 <!-- >📋  Describe how to evaluate the trained models on benchmarks reported in the paper, give commands that produce the results (section below). -->
 
-<!-- ## Pre-trained Models
+## Pretrained Model Weights
 
 You can download pretrained models here:
 
-- Our awesome model trained on Sen2_MTC_Old: [diffcr_old.pth](/pretrained/diffcr_old.pth)
-- Our awesome model trained on Sen2_MTC_New: [diffcr_new.pth](/pretrained/diffcr_new.pth) -->
+- DiffCR trained on Sen2_MTC_Old dataset: [🤗 HuggingFace](https://huggingface.co/XavierJiezou/diffcr-models/tree/main/experiments/train_nafnet_double_encoder_splitcaCond_splitcaUnet_sigmoid_old_5000_230624_144530)
+- DiffCR trained on Sen2_MTC_New dataset: [🤗 HuggingFace](https://huggingface.co/XavierJiezou/diffcr-models/tree/main/experiments/train_nafnet_double_encoder_splitcaCond_splitcaUnet_sigmoid_noisen3_230611_035949)
+- DiffCR trained on SEN12MS-CR dataset (based on the official open-source implementation of UnCRtainTS): [🤗 HuggingFace](https://huggingface.co/XavierJiezou/diffcr-models/tree/main/UnCRtainTS)
 
-<!-- >📋  Give a link to where/how the pretrained models can be downloaded and how they were trained (if applicable).  Alternatively you can have an additional column in your results table with a link to the models. -->
+## Visualization
+
+The visualization results of 12 methods (including DiffCR) on the test sets of Sen2_MTC_Old and Sen2_MTC_New datasets, along with evaluation code for direct comparison by researchers, are available at: [🤗 HuggingFace Datasets](https://huggingface.co/datasets/XavierJiezou/diffcr-datasets)
 
 ## Citation 
 
