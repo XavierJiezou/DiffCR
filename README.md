@@ -122,9 +122,9 @@ If you use our code or models in your research, please cite with:
 
 ## Acknowledgments
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Janspiry&repo=Palette-Image-to-Image-Diffusion-Models)](https://github.com/Janspiry/Palette-Image-to-Image-Diffusion-Models)
+[Janspiry/Palette-Image-to-Image-Diffusion-Models](https://github.com/Janspiry/Palette-Image-to-Image-Diffusion-Models)
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=openai&repo=guided-diffusion)](https://github.com/openai/guided-diffusion)
+[openai/guided-diffusion](https://github.com/openai/guided-diffusion)
 
 ## Visit Count
 
