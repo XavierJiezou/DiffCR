@@ -69,6 +69,41 @@ You can download pretrained models here:
 
 The visualization results of 12 methods (including DiffCR) on the test sets of Sen2_MTC_Old and Sen2_MTC_New datasets, along with evaluation code for direct comparison by researchers, are available at: [🤗 HuggingFace Datasets](https://huggingface.co/datasets/XavierJiezou/diffcr-datasets)
 
+```
+├── paper-report.png          ← reference metrics table from the paper
+│
+├── data/
+│   ├── Sen2_MTC_New/
+│   │   ├── GT/               ← 687 cloud-free ground-truth images  ({id}.png)
+│   │   └── inputs/           ← 687 × 3 cloudy input images
+│   │                            ({id}_A1.png  {id}_A2.png  {id}_A3.png)
+│   └── Sen2_MTC_Old/
+│       ├── GT/               ← 313 ground-truth images
+│       └── inputs/           ← 313 × 3 cloudy inputs
+│
+├── results/
+│   ├── Sen2_MTC_New/
+│   │   ├── ae/               ← prediction images for each method ({id}.png)
+│   │   ├── crtsnet/
+│   │   ├── ctgan/
+│   │   ├── ddpmcr/
+│   │   ├── diffcr/           ← DiffCR [Ours]
+│   │   ├── dsen2cr/
+│   │   ├── mcgan/
+│   │   ├── pix2pix/
+│   │   ├── pmaa/
+│   │   ├── stgan/
+│   │   ├── stnet/
+│   │   └── uncrtaints/
+│   └── Sen2_MTC_Old/
+│       └── (same 12 methods)
+│
+└── eval/
+    ├── metrics.py            ← PSNR / SSIM / FID / LPIPS evaluation
+    ├── plot.py               ← comparison figure generation
+    └── requirements.txt      ← Python dependencies
+```
+
 ## Citation 
 
 If you use our code or models in your research, please cite with:
