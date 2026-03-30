@@ -29,6 +29,8 @@ To download datasets:
 
 - Sen2_MTC_New: [CTGAN.zip](https://drive.google.com/file/d/1-hDX9ezWZI2OtiaGbE8RrKJkN1X-ZO1P/view?usp=share_link)
 
+- SEN12MS-CR: [https://mediatum.ub.tum.de/1554803](https://mediatum.ub.tum.de/1554803)
+
 ## Training
 
 To train the models in the paper, run these commands:
