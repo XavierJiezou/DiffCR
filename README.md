@@ -67,7 +67,7 @@ You can download pretrained models here:
 
 ## Visualization
 
-The visualization results of 12 methods (including DiffCR) on the test sets of Sen2_MTC_Old and Sen2_MTC_New datasets, along with evaluation code for direct comparison by researchers, are available at: [🤗 HuggingFace Datasets](https://huggingface.co/datasets/XavierJiezou/diffcr-datasets)
+The visualization results of 12 methods (including DiffCR) on the test sets of Sen2_MTC_Old and Sen2_MTC_New datasets, along with evaluation code for direct comparison by researchers, are available at: [🤗 HuggingFace Visualization](https://huggingface.co/datasets/XavierJiezou/diffcr-datasets)
 
 ```
 ├── paper-report.png          ← reference metrics table from the paper
